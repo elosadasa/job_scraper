@@ -1,6 +1,7 @@
-from jobspy import scrape_jobs
-import pandas as pd
 import logging
+
+import pandas as pd
+from jobspy import scrape_jobs
 
 DEFAULT_RESULTS_WANTED = 20
 DEFAULT_HOURS_OLD = 1

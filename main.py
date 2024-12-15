@@ -1,9 +1,11 @@
-from config import load_config
-from scraper import fetch_combined_job_posts
-from database import insert_job_postings_and_get_new
-from notification import send_combined_telegram_message
 import argparse
 import logging
+
+from config import load_config
+from database import insert_job_postings_and_get_new
+from notification import send_combined_telegram_message
+from scraper import fetch_combined_job_posts
+
 
 def parse_arguments():
     """

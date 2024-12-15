@@ -1,7 +1,7 @@
-import re
-import requests
-from urllib.parse import quote
 import logging
+from urllib.parse import quote
+
+import requests
 
 
 def send_combined_telegram_message(bot_token, chat_id, new_jobs):

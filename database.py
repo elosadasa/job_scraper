@@ -1,5 +1,7 @@
 import sqlite3
+
 import pandas as pd
+
 
 def initialize_database():
     """
