@@ -1,0 +1,9 @@
+{
+    "job_titles": ["Business Analyst", "Data Analyst", "Product Owner", "Project Manager"],
+    "locations": ["Galicia"],
+    "country_indeed": "Spain",
+    "telegram": {
+        "bot_token": "8190606558:AAEZOZdJRizbtGfgJ2S6who1a3_EzPu6ovQ",
+        "chat_id": "6681609690"
+    }
+}
